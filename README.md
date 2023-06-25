@@ -1,33 +1,35 @@
-# An-Accurate-Plant-Disease-Detection-Technique-Using-Machine-Learning
+# Weather-Dashboard
+### Description
+Weather-Dashboard is an application to find a weather condition of a given city both the current and 5-Days forecast at the same time.
+The server-side API used to get response data object is retrieved from the Open Weather APi.
+The current weather section is including the following weather characters and date.
 
-Plant  Disease Detection Using Machine Learning and Image Processing and Integrated With the Web Appllication.
+- City, Date, Icon-image
+- Temperature
+- Humidity
+- Wind Speed
+- UV index
 
-An accurate plant disease detection technique using machine learning involves leveraging advanced algorithms and models to analyze images of plants and identify signs of diseases or abnormalities. Here's an explanation of how this technique works:
+The 5-days weather forecast also displays below the current weather conditions section and it includes the following information for each day:
 
-1. Data Collection: Gather a large dataset of images that contain both healthy plants and plants affected by various diseases. It's important to ensure that the dataset represents a diverse range of plant species and disease types.
+- Date
+- Icon image
+- Temperature
+- Humidity
 
-2. Preprocessing: Preprocess the collected images to enhance their quality and normalize their features. This may include resizing, cropping, and adjusting color levels to ensure consistent inputs for the machine learning model.
+The local storage is used here to store the previous search city and display them to the user in the left side of the page under the list group. The user can also clear the search history by clicking the clear history button.
+If the user wants to see the past search city weather condition again, just click the list group item cities under the clear history button.
 
-3. Feature Extraction: Extract relevant features from the preprocessed images that can be used to distinguish healthy plants from diseased ones. This can involve techniques like edge detection, texture analysis, or color-based features.
+Check out live site [WeatherDashboard](https://weatherdashboards.netlify.app/)
+Check another live site [Host by Github](https://sahiljanbandhu.github.io/Weather-Dashboard/)
 
-4. Model Training: Train a machine learning model, such as a convolutional neural network (CNN), using the preprocessed image data. The model learns to differentiate between healthy and diseased plants based on the extracted features.
+### Screenshots:
+1. Run file index.html
 
-5. Validation and Evaluation: Validate the trained model using a separate validation dataset to assess its accuracy and performance. This step helps ensure that the model can generalize well to new, unseen images.
+![Capture](https://user-images.githubusercontent.com/22257930/87544595-5af33780-c6c4-11ea-9005-5978cb713556.PNG)
 
-6. Disease Detection: Once the model is trained and validated, it can be used for plant disease detection. New plant images can be fed into the model, which then predicts whether the plant is healthy or infected with a specific disease.
+2. Enter any city
 
-7. User Interface: Develop a user-friendly interface, such as a web or mobile application, to enable users (farmers, gardeners, or researchers) to easily upload plant images for disease detection. The interface should display the results, indicating whether the plant is healthy or diseased and, if possible, providing information about the detected disease.
+![Capt1ure](https://user-images.githubusercontent.com/22257930/87544779-a4dc1d80-c6c4-11ea-9904-e7d3ca268f66.PNG)
 
-Advantages of Accurate Plant Disease Detection Using Machine Learning:
 
-1. Early Disease Detection: Machine learning models can identify diseases at an early stage, allowing for timely intervention and control measures. This helps prevent the spread of diseases and minimize crop losses.
-
-2. Accuracy and Efficiency: Machine learning algorithms can analyze large amounts of plant images quickly and accurately, surpassing human capabilities in detecting subtle signs of diseases that may be difficult to spot with the naked eye.
-
-3. Scalability: Once trained, the machine learning model can be easily deployed and scaled to process a large number of plant images, making it suitable for use in large-scale agricultural operations or remote monitoring systems.
-
-4. Cost-Effective: Automated disease detection reduces the need for manual labor and specialized expertise, making it a cost-effective solution for monitoring plant health on a large scale.
-
-5. Non-Destructive: Plant disease detection using machine learning is a non-destructive method that doesn't require physical sampling or laboratory testing. It allows for monitoring and diagnosis without causing harm to plants.
-
-By implementing an accurate plant disease detection technique using machine learning, farmers and researchers can swiftly identify diseases in crops, take appropriate measures to mitigate their impact, and make informed decisions regarding treatment and crop management. This ultimately contributes to improved crop health, increased yields, and more sustainable agriculture practices.
