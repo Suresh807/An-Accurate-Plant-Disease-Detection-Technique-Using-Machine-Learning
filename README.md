@@ -1,35 +1,57 @@
-# Weather-Dashboard
-### Description
-Weather-Dashboard is an application to find a weather condition of a given city both the current and 5-Days forecast at the same time.
-The server-side API used to get response data object is retrieved from the Open Weather APi.
-The current weather section is including the following weather characters and date.
+ 🌱 Plant Disease Detection Web Application 🌿
 
-- City, Date, Icon-image
-- Temperature
-- Humidity
-- Wind Speed
-- UV index
+ Table of Contents
+- [🌿 About](about)
+- [✨ Features](features)
+- [🚀 Demo](demo)
+- [🛠 Getting Started](getting-started)
+- [🔗 Dependencies](dependencies)
+- [🌐 Usage](usage)
+- [🤝 Contributing](contributing)
+- [📝 License](license)
+- [📬 Contact](contact)
 
-The 5-days weather forecast also displays below the current weather conditions section and it includes the following information for each day:
+ 🌿 About
+This web application is designed for plant disease prediction, providing farmers with valuable insights into temperature, humidity, wind speed, and predictions for potential diseases affecting crops. It integrates a user-friendly interface with a backend powered by Convolutional Neural Networks (CNNs) for accurate disease detection.
 
-- Date
-- Icon image
-- Temperature
-- Humidity
+ ✨ Features
+- Real-time weather forecast 🌦️
+- User-friendly interface for uploading and processing plant images 📸
+- Predictions and preventive measures for identified diseases 🌱
+- Contact form for user inquiries 📬
 
-The local storage is used here to store the previous search city and display them to the user in the left side of the page under the list group. The user can also clear the search history by clicking the clear history button.
-If the user wants to see the past search city weather condition again, just click the list group item cities under the clear history button.
+ 🚀 Demo
+You can check out a live demo [here](https://fabulous-pavlova-ffac96.netlify.app/home1)
 
-Check out live site [WeatherDashboard](https://weatherdashboards.netlify.app/)
-Check another live site [Host by Github](https://sahiljanbandhu.github.io/Weather-Dashboard/)
+ 🛠 Getting Started
+1. Clone the repository: `git clone https://github.com/your-username/plant-disease-detection.git`
+2. Navigate to the project directory: `cd plant-disease-detection`
+3. Open `index.html` in your preferred web browser.
 
-### Screenshots:
-1. Run file index.html
+ 🔗 Dependencies
+- [Swiper](https://swiperjs.com/) - Used for the image slider in the About Us section.
+- [Font Awesome](https://fontawesome.com/) - Icons for social media links.
+- [Boxicons](https://boxicons.com/) - Icons used in the upload image section.
+- [Bootstrap](https://getbootstrap.com/) - Styling for the web application.
+- [jQuery](https://jquery.com/) - JavaScript library for DOM manipulation.
 
-![Capture](https://user-images.githubusercontent.com/22257930/87544595-5af33780-c6c4-11ea-9005-5978cb713556.PNG)
+Include links to any other libraries or frameworks you might have used.
 
-2. Enter any city
+ 🌐 Usage
+1. Open the web application in a browser.
+2. Explore the different sections like weather forecast, about us, and contact.
+3. Upload a plant image in the designated section and click "Process" to get disease predictions.
 
-![Capt1ure](https://user-images.githubusercontent.com/22257930/87544779-a4dc1d80-c6c4-11ea-9904-e7d3ca268f66.PNG)
+ 🤝 Contributing
+Feel free to contribute to this project by forking the repository and creating pull requests.
 
+ 📝 License
+This project is licensed under the [MIT License](LICENSE).
 
+📬Connect with Me on LinkedIn 🌐
+
+👋 Hi there! I'm always excited to connect with fellow developers, enthusiasts, and learners. If you share an interest in Full Stack Web Development, Machine Learning, or Data Science, let's connect on LinkedIn!
+
+Feel free to [follow me](https://www.linkedin.com/in/suresh-kumar-k-398439237/) and send a connection request. I'm open to discussions, collaboration, and sharing knowledge. Let's grow together in the vast world of technology! 🚀✨
+
+Looking forward to connecting with you! 😊
